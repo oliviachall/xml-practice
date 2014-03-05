@@ -1,0 +1,108 @@
+body{
+    padding-top:50px;
+}
+
+a.name #name{
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+#navlist{
+    padding-top: 85px;
+    margin-top: -85px;
+}
+
+#person{
+    padding-bottom: 2em;
+}
+
+#navlist a:link {
+    color: #FFF;
+}
+
+#navlist a:visited {
+    color: #FFF;
+}
+
+#navlist a:hover {
+    color: gray;
+    
+}
+
+a:hover {
+  text-decoration: none;  
+}
+
+#navlist a:active {
+   color: gray;
+}
+
+.bg-blue{
+    background: #56A0D3;
+    color:white;
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#navlist li {
+    list-style-type: none;
+}
+
+#person li {
+    list-style-type: none;
+}
+
+#navlist ul {
+    padding-left: 0em;
+}
+
+.floatRight{
+    float:right;
+    border: 1px solid black;
+    margin-top:20px;
+}
+
+.floatLeft{
+    float:left;
+    border: 1px solid black;
+    display: inline;
+}
+
+.characters p {
+	margin: 1em 0 0 0;
+	padding: 0px;
+}
+
+#person hr{
+    border-top: dotted 1px;
+}
+
+
+
+ul.characters {
+	list-style: none;
+	margin-top:0px;
+	margin-left: 0;
+	padding-left: 1em;
+	padding-bottom:0px;
+	border-bottom: 1px dotted #666;
+	font-size:125%;
+	
+	
+	
+}
+
+#name img{
+    padding: .3em .3em .3em .3em;
+}
+
+
+
+ul.characters h3{
+	margin-bottom:0px;
+	padding:0px;
+	color:#2779aa;	
+}
+
+
