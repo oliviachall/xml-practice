@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>NCAA Investigation</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,6 +69,7 @@
         </div>
         <div class="col-md-9">
 	  <div id="name"></div>
+	  <hr>
           <div id="person"></div>
         </div>
       </div>
@@ -114,6 +115,8 @@
 	  tempPhoto = $(this).find("photo").text();
 	  
 	  htmlNav += "<li><a href='#" + tempLastName + "'>" + tempName + "</a></li>";
+	  htmlNav += "<li><a href='#" + tempLastName + "'><img src='" + tempPhoto + "'width='50' height='50' style='float: right' alt='player'></li>";
+	 
 	  
 	  
 	  if (index < 26) {
@@ -124,6 +127,7 @@
 	  
 	  //builds top thumbnails
 	  htmlTop += "<a href='#" + tempLastName + "'><img src='" + tempPhoto + "'width='100' height='100' alt='player'></a>";
+	
 	  
 	  
 	    //builds player profile at bottom of page for anchors
@@ -151,6 +155,7 @@
 	
       }; //end parseXML
     </script>
+
     
   </body>
 </html>

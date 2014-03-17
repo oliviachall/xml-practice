@@ -2,7 +2,7 @@ body{
     padding-top:50px;
 }
 
-a.name #name{
+h3{
     padding-top: 50px;
     margin-top: -50px;
 }
@@ -78,7 +78,9 @@ a:hover {
     border-top: dotted 1px;
 }
 
-
+hr {
+    border-top: dotted 1px;
+}
 
 ul.characters {
 	list-style: none;
